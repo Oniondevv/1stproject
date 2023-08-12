@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+
+            <!-- HOME -->
+    <section class="home" id="home" >
+        <input type="checkbox" id="check">
+        <header>
+            <h2><a href="#" class="logo">Nfoodie</a></h2>
+            <div class="navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#footer">Contacts</a>
+                <a href="#">Sign-in</a>
+            </div>
+            <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn"></i>
+            </label>
+        </header>   
+        <div class="content">
+            <div class="info" data-aos="fade-right" data-aos-duration="1500">
+                <h2>Foodie Heaven <br>Every Bite.</h2>  
+                <p>Discover an amazing variety of delicious dishes that will satisfy<br>your taste buds and leave you wanting more.</p>
+                <a href="#order" class="info-btn">Order Now</a>
+            </div>
+            <div class="image" data-aos="fade-left" data-aos-duration="1500">
+                <img src="./images/bowl.png">
+            </div>
+        </div>
+    </section>
+
+      <!-- ABOUT SECTION -->
+    <section class="section-about" >
+        <div class="about-content" id="about">
+            <div class="about-image" data-aos="fade-right" data-aos-duration="1500" >
+                <img src="./images/chickenbowl.png">
+            </div>
+            <div class="about-info" data-aos="fade-left" data-aos-duration="1500" >
+                <h2>Our History</h2>  
+                <p>Pioneering Culinary Excellence Since 1930.
+                <br>Our storied history began over nine decades ago,
+                <br>when our founders set out on a mission to share the authentic
+                <br>flavors of the Philippines with the world. We take pride in offering,
+                <br>the best meals, exceptional customer service, and an unforgettable
+                <br>dining experience at the best price. Come and savor the essence of
+                <br>the Philippines on a plate.
+                </p>
+            </div>
+        </div> 
+    </section>
+
+       <!-- MENU SECTION -->
+    <section class="menu" id="menu" >
+        <div class="heading" >
+            <h2>Flavorfolio</h2>
+            <h3>&mdash;Menu&mdash;</h3>
+        </div>
+        <div class="main-menu-sec">
+            <div class="inner-menu-con" data-aos="fade-down" data-aos-duration="1500">
+                <div class="inner-menu-content">
+                    <img src="images/salad.png" alt="">
+                    <h2>Fresh Salad</h2>
+                    <h3 class="price">₱250.00</h3>
+                    <p>Crunch into pure freshness: A garden's bounty, nature's delight, and health on your plate.</p>
+                    <a href="#" class="order">Add To Cart</a>
+                </div>
+            </div>
+            <div class="inner-menu-con">
+                <div class="inner-menu-content" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="images/steak.png" alt="">
+                    <h2>Grilled Steak</h2>
+                    <h3 class="price">₱1500.00</h3>
+                    <p>Savor the flame-kissed perfection: Juicy, tender, and a carnivore's dream come true.</p>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+            <div class="inner-menu-con">
+                <div class="inner-menu-content" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="images/pasta.png" alt="">
+                    <h2>Italian Pasta</h2>
+                    <h3 class="price">₱450.00</h3>
+                    <p>Authentic Italian flavors captured in every bite of our delectable pasta creations. Buon Appetito!</p>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+            <div class="inner-menu-con">
+                <div class="inner-menu-content" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="images/pizza.png" alt="">
+                    <h2>Pepperoni Pizza</h2>
+                    <h3 class="price">₱700.00</h3>
+                    <p>Slice into Pepperoni Perfection: Irresistible cheese, zesty sauce, and a pepperoni lover's delight.</p>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+            <div class="inner-menu-con">
+                <div class="inner-menu-content" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="images/chicken.png" alt="">
+                    <h2>Roasted Chicken</h2>
+                    <h3 class="price">₱650.00</h3>
+                    <p>Golden-brown, tender Roasted Chicken: A savory delight that satisfies with every bite.</p>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+            <div class="inner-menu-con">
+                <div class="inner-menu-content" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="images/salmon.png" alt="">
+                    <h2>Asian Salmon</h2>
+                    <h3 class="price">₱350.00</h3>
+                    <p>Asian-inspired Delicacy: Succulent Salmon with Exquisite Oriental Spices, a Seafood Marvel.</p>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!---Gallery-->
+            <section class="our-gallery">
+                    <div class="main-heading">
+                        <h1>GALLERIA</h1>
+                    </div>
+
+                <div class="main-gallery">
+                    <div class="inner-gallery-img">
+                        <img src="images/g1.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
+                    </div>
+
+                    <div class="inner-gallery-img">
+                        <img src="images/g2.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
+                    </div>
+
+                    <div class="inner-gallery-img">
+                        <img src="images/g3.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
+                    </div>
+
+                    <div class="inner-gallery-img">
+                        <img src="images/g4.jpg" alt="" data-aos="fade-left" data-aos-duration="1500">
+                    </div>
+
+                    <div class="inner-gallery-img">
+                        <img src="images/g5.jpg" alt="" data-aos="fade-left" data-aos-duration="1500">
+                    </div>
+
+                    <div class="inner-gallery-img">
+                        <img src="images/g6.jpg" alt="" data-aos="fade-left" data-aos-duration="1500">
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <!--Ordering-->
+
+
+            <section class="order" id="order">
+                <h1 class="order-heading">order now</h1>
+        
+                <form action="">
+        
+                    <div class="box-container">
+                            
+                        <div class="box">
+                            <div class="inputBox">
+                                <span>Full Name</span>
+                                <input type="text" placeholder="enter your name">
+                            </div>
+        
+                            <div class="inputBox">
+                                <span>Order Name</span>
+                                <input type="text" placeholder="Enter Order Name">
+                            </div>
+        
+                            <div class="inputBox">
+                                <span>Order Details</span>
+                                <input type="text" placeholder="Enter Preferences">
+                            </div>
+        
+                            <div class="inputBox">
+                                <span>Your Address</span>
+                                <textarea name="" placeholder="enter your address" cols="30" rows="10"></textarea>
+                            </div>
+                           
+                        </div>
+        
+                        <div class="box">
+                            <div class="inputBox">
+                                <span>Phone Number</span>
+                                <input type="number" placeholder="enter your phone number">
+                            </div>
+        
+                            <div class="inputBox">
+                                <span>Quantity</span>
+                                <input type="number" placeholder="Enter Quantity">
+                            </div>
+        
+                            <div class="inputBox">
+                                <span>Date</span>
+                                <input type="datetime-local">
+                            </div>
+        
+                            <div class="inputBox">
+                                <span>Store Address</span>
+                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.809231636539!2d121.01845407389766!3d14.552899178245177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9101c33e70d%3A0x5a83096d45c25f25!2sMesa%20Filipino%20Moderne!5e0!3m2!1sen!2sph!4v1690556541741!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+        
+                        </div>
+                       
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+        
+            </section>
+
+
+    
+                    <!-- footer -->
+
+    <section class="footer" id="footer">
+
+        <div class="icons-container">
+
+            <div class="icons" data-aos="fade-right" data-aos-duration="1500">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <p>406 Moret St, Sampaloc, <br>
+                    1008 Metro Manila, <br>
+                    Philippines</p>
+            </div>
+
+            <div class="icons" data-aos="fade-down" data-aos-duration="1500">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+63 96 530 7531</p>
+                <p>+63 96 530 7531</p>
+            </div>
+
+            <div class="icons" data-aos="fade-down" data-aos-duration="1500" >
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <a href="#" class="link">shyguy@gmail.com</a>
+            </div>
+
+            <div class="icons" data-aos="fade-left" data-aos-duration="1500">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>mon - thu: 10:00 AM - 9:00 PM <br> Sat: 11:00 AM - 10:00 PM</p>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f" data-aos="fade-right" data-aos-duration="1000"></a>
+            <a href="#" class="fab fa-twitter" data-aos="fade-down" data-aos-duration="1000"></a>
+            <a href="#" class="fab fa-instagram" data-aos="fade-up" data-aos-duration="1000"></a>
+            <a href="#" class="fab fa-linkedin" data-aos="fade-left" data-aos-duration="1000" ></a>
+        </div>
+
+        <div class="credit">Created by <span>PUDIT</span> | All rights reserved &copy; 2023</div>
+
+    </section>
+
+
+
+
+
+    <!-- footer -->
+
+
+
+</body>
+</html>
